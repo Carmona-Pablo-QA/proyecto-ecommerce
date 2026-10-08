@@ -10,8 +10,14 @@ header {
     border: 3px solid brown;
 }
 header img {
+    width: 150px;
     max-width: 100%;
     height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 .titulo-principal {
     text-align: center;
@@ -94,4 +100,6 @@ nav a {
 video {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 20px auto;
 }
